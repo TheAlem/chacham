@@ -41,23 +41,31 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class SomethingWentWrong extends StatelessWidget {
+class Loading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Algo salió mal"),
+    return Directionality(
+      textDirection: TextDirection
+          .ltr, // Definir la dirección de lectura como izquierda a derecha
+      child: Scaffold(
+        body: Center(
+          child: CircularProgressIndicator(),
+        ),
       ),
     );
   }
 }
 
-class Loading extends StatelessWidget {
+class SomethingWentWrong extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: CircularProgressIndicator(),
+    return Directionality(
+      textDirection: TextDirection
+          .ltr, // Definir la dirección de lectura como izquierda a derecha
+      child: Scaffold(
+        body: Center(
+          child: Text("Algo salió mal"),
+        ),
       ),
     );
   }
