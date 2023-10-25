@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "25615348978",
+    "project_id": "shazam-78aef",
+    "storage_bucket": "shazam-78aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25615348978:android:f16af6c0dbc8d28713cc6b",
+        "android_client_info": {
+          "package_name": "com.example.chacham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25615348978-guc07aghf4l32q0uqsn0dn6oair3td50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chacham",
+            "certificate_hash": "3e0f2704d7e77e272a0e958ba4e20a9c9b2c6edb"
+          }
+        },
+        {
+          "client_id": "25615348978-bshc34itavn6qvhv76g078j8190m684p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7KCDmHziFFEcDdX-U53gOzBtIdvOWyIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25615348978-bshc34itavn6qvhv76g078j8190m684p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "25615348978-3envetlsmhieafmet6h0pt031j24k4k5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shazam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25615348978:android:b1290afacc29994913cc6b",
+        "android_client_info": {
+          "package_name": "com.example.shazam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25615348978-iuc48hi2n2plrbt8d48amcdvvklatopl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shazam",
+            "certificate_hash": "3e0f2704d7e77e272a0e958ba4e20a9c9b2c6edb"
+          }
+        },
+        {
+          "client_id": "25615348978-bshc34itavn6qvhv76g078j8190m684p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7KCDmHziFFEcDdX-U53gOzBtIdvOWyIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25615348978-bshc34itavn6qvhv76g078j8190m684p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "25615348978-3envetlsmhieafmet6h0pt031j24k4k5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shazam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
