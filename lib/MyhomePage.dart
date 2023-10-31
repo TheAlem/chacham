@@ -133,7 +133,7 @@ class _MyHomePageState extends State<MyHomePage>
     );
   }
 
-     Widget _buildLibraryPage() {
+  Widget _buildLibraryPage() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20.0),
       child: Column(
@@ -269,11 +269,6 @@ Widget _buildBottomNavigation() {
       await _recorder.closeRecorder();
     } catch (e) {
       print("Error durante la grabación: $e");
-      return;
-    }
-
-    if (path == null) {
-      print("Error: Path de grabación es null");
       return;
     }
 
